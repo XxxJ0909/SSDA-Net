@@ -4,7 +4,7 @@
 **Authors:** Kai Zhang, Jian Xiao, Feng Zhang, Jiande Sun, Lorenzo Bruzzone
 
 <p align="center">
-  <img src="DRJL-Net.png" width="900">
+  <img src="Fig1.png" width="900">
 </p>
 
 > DRJL-Net integrates **LR features** from a super-resolution (SR) network and **HR features** from a change detection (CD) network, and further suppresses cross-satellite **spectral/spatial discrepancies** via dual-resolution learning modules (DRLMs).
@@ -14,7 +14,7 @@
 SD-CSCD is a remote sensing change detection dataset composed of bi-temporal images acquired by different satellites, designed to study change detection under cross-satellite settings.
 
 <p align="center">
-  <img src="GitHub_SD_CSCD.png" width="900">
+  <img src="SD_CSCD.png" width="900">
 </p>
 
 ### Dataset Description
