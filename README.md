@@ -10,5 +10,5 @@
 
 SD-CSCD is a remote sensing change detection dataset composed of bi-temporal images acquired by different satellites, designed to study change detection under cross-satellite settings.
 
-
+![SD-CSCD](GitHub_SD_CSCD.png)
 
