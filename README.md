@@ -22,5 +22,5 @@ SD-CSCD is a remote sensing change detection dataset composed of bi-temporal ima
   - Time 1 (GF-6): **128×128**
   - Time 2 (GF-2): **256×256**
 - **Scale:** **3,640** paired patches, split into **train/val/test = 7:1:2**
-- **Preprocessing (high-level):** radiometric calibration, atmospheric correction, orthorectification, RPC-based refinement, pansharpening (ENVI NNDiffuse), co-registration, patch cropping, labeling.
+- **Preprocessing:** radiometric calibration, atmospheric correction, orthorectification, RPC-based refinement, pansharpening (ENVI NNDiffuse), co-registration, patch cropping, labeling.
 
