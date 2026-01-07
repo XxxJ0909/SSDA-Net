@@ -31,6 +31,7 @@ SD-CSCD is a remote sensing change detection dataset composed of bi-temporal ima
 - **Preprocessing:** radiometric calibration, atmospheric correction, orthorectification, RPC-based refinement, pansharpening (ENVI NNDiffuse), co-registration, patch cropping, labeling.
 
 The link of Google griver:https://drive.google.com/file/d/1c914-34fuf8vmwMwK0ZrsO_KytwyM1QS/view?usp=drive_link
+
 The dataset is avaliable at：https://pan.baidu.com/s/1kfJ6DDhKGRRwdr2AjvvDgg?pwd=2358
 
 
