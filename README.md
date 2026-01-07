@@ -5,7 +5,7 @@
 
 ![DRJL-Net](DRJL-Net.png)
 <p align="center">
-  <img src="assets/sd-cscd_examples.png" width="900">
+  <img src="DRJL-Net.png" width="900">
 </p>
 
 > DRJL-Net integrates **LR features** from a super-resolution (SR) network and **HR features** from a change detection (CD) network, and further suppresses cross-satellite **spectral/spatial discrepancies** via dual-resolution learning modules (DRLMs).
@@ -16,7 +16,7 @@ SD-CSCD is a remote sensing change detection dataset composed of bi-temporal ima
 
 ![SD-CSCD](GitHub_SD_CSCD.png)
 <p align="center">
-  <img src="assets/drjlnet_arch.png" width="900">
+  <img src="GitHub_SD_CSCD.png" width="900">
 </p>
 
 ### Dataset Description
@@ -33,4 +33,5 @@ SD-CSCD is a remote sensing change detection dataset composed of bi-temporal ima
 - **Preprocessing:** radiometric calibration, atmospheric correction, orthorectification, RPC-based refinement, pansharpening (ENVI NNDiffuse), co-registration, patch cropping, labeling.
 
 The link of Google griver:https://drive.google.com/file/d/1c914-34fuf8vmwMwK0ZrsO_KytwyM1QS/view?usp=drive_link
+
 The dataset is avaliable at：https://pan.baidu.com/s/1kfJ6DDhKGRRwdr2AjvvDgg?pwd=2358
