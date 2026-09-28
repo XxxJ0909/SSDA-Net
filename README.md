@@ -1,4 +1,4 @@
-# DRJL-Net
+# SSDA-Net
 
 **Paper:** *Towards Cross-Satellite Change Detection: A Dual-Resolution Joint Learning Network*  
 **Authors:** Kai Zhang, Jian Xiao, Feng Zhang, Jiande Sun, Lorenzo Bruzzone
@@ -27,7 +27,7 @@ SD-CSCD is a remote sensing change detection dataset composed of bi-temporal ima
 - **Patch sizes:**
   - Time 1 (GF-6): **128×128**
   - Time 2 (GF-2): **256×256**
-- **Scale:** **3,640** paired patches, split into **train/val/test = 7:1:2**
+- **Scale:** **7,280** paired patches, split into **train/val/test = 7:1:2**
 - **Preprocessing:** radiometric calibration, atmospheric correction, orthorectification, RPC-based refinement, pansharpening (ENVI NNDiffuse), co-registration, patch cropping, labeling.
 
 The link of Google griver:https://drive.google.com/file/d/1c914-34fuf8vmwMwK0ZrsO_KytwyM1QS/view?usp=drive_link
