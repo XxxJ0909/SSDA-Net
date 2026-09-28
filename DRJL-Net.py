@@ -5,7 +5,7 @@ import torch.nn as nn
 import torch.utils.checkpoint as checkpoint
 from einops import rearrange
 
-# SR Network
+
 
 def to_2tuple(x):
     if isinstance(x, tuple):
