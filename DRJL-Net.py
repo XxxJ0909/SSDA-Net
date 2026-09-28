@@ -1315,7 +1315,7 @@ class MSFD(nn.Module):
         return output
 
 
-class DRJLNet(nn.Module):
+class SSDANet(nn.Module):
 
     def __init__(self,
                  backbone='resnet18',
@@ -1328,7 +1328,7 @@ class DRJLNet(nn.Module):
                  img_size_l1=128,
                  img_size_l2=256,
                  output_nc=2):  
-        super(DRJLNet, self).__init__()
+        super(SSDANet, self).__init__()
 
       
         self.sr_net = HAT(
@@ -1385,18 +1385,6 @@ class DRJLNet(nn.Module):
 
         return H1, H2, cd_map
 
-# if __name__ == '__main__':
-
-#     L1 = torch.ones(4, 3, 128, 128)  # Time1
-#     L2 = torch.ones(4, 3, 256, 256)  # Time2
-
-#     model = DRJLNet()
-#     H1, H2, cd_map = model(L1, L2)
-#     print(f"H1 shape: {H1.shape}")
-#     print(f"H2 shape: {H2.shape}")
-#     print(f"cd_map shape: {cd_map.shape}")
-#
-#
 
 
 
